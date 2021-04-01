@@ -1,0 +1,304 @@
+.banner {
+  position: relative;
+  height: 300px;
+  /* border: 1px solid red; */
+}
+.banner ul li img {
+  width: 100%;
+}
+/* 中间功能区 */
+.banner .w {
+  /* height: 100%; */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 1000px;
+  /* border: 1px solid red; */
+}
+.banner .w .details {
+  /* position: absolute; */
+  float: right;
+  margin-top: 20px;
+  right: 0;
+}
+/* 功能区标题 */
+.banner .w .details h1 {
+  color: #fff;
+  font-family: 宋体;
+  font-size: 34px;
+}
+/* 申请人数 价格  台数 */
+.banner .w .details ul {
+  /* border: 1px solid red; */
+  margin-left: 40px;
+}
+.banner .w .details ul li {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 12px 10px;
+  background: #fff;
+  opacity: 0.3;
+  color: rgb(88, 86, 86);
+  font-size: 16px;
+}
+/* 功能区  剩余时间 */
+.banner .w .details p {
+  color: rgb(240, 238, 238);
+  font-size: 16px;
+  margin-left: 20px;
+}
+/* 立即申请按钮 */
+.banner .w .details button {
+  width: 240px;
+  height: 50px;
+  margin: 20px 0 20px 60px;
+  font-size: 20px;
+  border-radius: 3px;
+  background: rgb(245, 65, 65);
+  color: #fff;
+}
+/* 主体区 */
+.main .w {
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid red;
+  height: 380px;
+}
+.main .w .hot {
+  overflow: hidden;
+}
+/* 左右滚动 */
+.main > .w > span {
+  line-height: 290px;
+}
+/* 上一个 */
+.main > .w > span:nth-of-type(1) {
+  float: left;
+  margin-left: -60px;
+}
+/* 下一个 */
+.main > .w > span:nth-of-type(2) {
+  float: right;
+  margin-right: -60px;
+}
+/* 热门试用 */
+.main .w h2 {
+  margin: 25px 0 25px 15px;
+}
+
+.main .w .hot ul {
+  width: 10000px;
+}
+.main .w .hot ul li {
+  float: left;
+  width: 220px;
+  height: 290px;
+  margin: 0 15px;
+  text-align: center;
+  border-radius: 7px;
+  border: 1px solid rgb(231, 230, 230);
+}
+/* 每个商品列表 */
+.main .w .hot ul li img {
+  width: 100%;
+  border-radius: 7px 7px 0 0;
+}
+.main .w .hot ul li p {
+  padding: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.main .w .hot > ul > li > span {
+  color: red;
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid red;
+  border-radius: 4px;
+}
+.main .w .hot > ul > li > div {
+  margin: 10px;
+  font-size: 16px;
+}
+.main > .w > .hot > ul > li > div > span {
+  color: red;
+}
+.main > .w > .hot > ul > li > span:nth-of-type(3) {
+  border: 0;
+}
+.main > .w > .hot > ul > li > span:nth-of-type(3) > span {
+}
+
+/* 报告精选 */
+.main .index_report {
+  width: 100%;
+  background: #f7f7f7;
+}
+.main .index_report .w {
+  width: 1000px;
+  height: 600px;
+}
+.main .index_report > .w > h2 {
+  margin: 25px 0 25px 15px;
+}
+
+.main .index_report > .w > .report ul {
+  width: 1000px;
+}
+.main > .index_report > .w > .report > ul li {
+  float: left;
+  width: 220px;
+  height: 235px;
+  margin: 0 15px 20px;
+  /* text-align: center; */
+  border-radius: 7px;
+  border: 1px solid rgb(231, 230, 230);
+}
+/* 每个商品列表 */
+.main > .index_report > .w .report ul li img {
+  width: 100%;
+  border-radius: 7px 7px 0 0;
+}
+.main .index_report > .w > .report ul li p {
+  padding: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.main .index_report > .w > .report > ul li .dianping {
+  display: inline-block;
+  width: 100%;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 4px;
+  line-height: 40px;
+}
+.main .index_report > .w > .report > ul li > .dianping > .index_name {
+  float: left;
+}
+.main .index_report > .w > .report ul li > .dianping > .dianzan {
+  float: right;
+}
+.main .index_report > .w > .report ul li > .dianping > .dianzan > img {
+  width: 15px;
+  height: 16px;
+}
+.main .index_report > .w > .report ul li > .dianping > .dianzan > span {
+  width: 15px;
+  height: 16px;
+}
+.main .index_report > .w > .report ul li > .dianping > .pinglun {
+  float: right;
+  margin-right: 10px;
+}
+.main .index_report > .w > .report ul li > .dianping > .pinglun > img {
+  width: 15px;
+  height: 16px;
+}
+.main .index_report > .w > .report ul li > .dianping > .dianzan > span {
+  width: 15px;
+  height: 16px;
+}
+
+/* 导购精选 */
+.main .index_guide > .w {
+  width: 1000px;
+  height: 350px;
+}
+/* .main .index_guide>.w:hover{
+    cursor: pointer;
+     box-shadow: 1px; 
+    } */
+.main .index_guide > .w > .guide ul {
+  width: 1000px;
+}
+.main > .index_guide > .w > .guide > ul li {
+  float: left;
+  width: 220px;
+  height: 235px;
+  margin: 0 15px 20px;
+  /* text-align: center; */
+  border-radius: 7px;
+  border: 1px solid rgb(231, 230, 230);
+}
+.main > .index_guide > .w > .guide > ul > li:hover {
+  box-shadow: 0 0px 6px 6px rgba(233, 234, 240, 0.6);
+}
+/* 每个商品列表 */
+.main > .index_guide > .w > .guide > ul li img {
+  width: 100%;
+  border-radius: 7px 7px 0 0;
+}
+.main > .index_guide > .w > .guide > ul li p {
+  padding: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.main > .index_guide > .w > .guide > ul li .dianping {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  color: #333;
+  /* padding: 5px 10px; */
+  border-radius: 4px;
+  /* line-height: 40px; */
+  border: 1px solid red;
+}
+
+
+ .main > .index_guide > .w > .guide > ul li > .dianping > .pinglun > span {
+    position: absolute;
+    bottom: 26px;
+    right: 15px;
+  width: 15px;
+  height: 16px;
+} 
+
+.main
+  > .index_guide
+  > .w
+  > .guide
+  > ul
+  li
+  > .dianping
+  > .dianzan
+  > img:nth-of-type(1) {
+  position: absolute;
+  bottom: 25px;
+  right: 35px;
+  width: 15px;
+  height: 16px;
+}
+.main
+  > .index_guide
+  > .w
+  > .guide
+  > ul
+  li
+  > .dianping
+  > .dianzan
+  > img:nth-of-type(2) {
+  position: absolute;
+  bottom: 25px;
+  right: 35px;
+  display: none;
+  width: 15px;
+  height: 16px;
+}
+ .main > .index_guide > .w > .guide > ul li > .dianping > .dianzan > span { 
+     position: absolute;
+  bottom: 26px;
+  right: 60px;
+  width: 15px;
+  height: 16px;
+} 
+.main > .index_guide > .w > .guide > ul li > .dianping > .pinglun > img {
+  position: absolute;
+  bottom: 25px;
+  right: 80px;
+  width: 15px;
+  height: 16px;
+}

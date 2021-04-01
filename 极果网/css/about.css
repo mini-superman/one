@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.section {
+  margin: 0 auto;
+  width: 1010px;
+  padding-bottom: 50px;
+}
+.section > .left {
+  float: left;
+  width: 270px;
+  background: #f2f0f0;
+  border-radius: 4px;
+}
+
+.section .left .help_lf {
+  width: 230px;
+  margin: 0 auto;
+}
+.section .help_g {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 10px;
+  color: #333;
+  border-bottom: 1px solid #a3a3a3;
+}
+.section .left .help_lf .shang > dl {
+  width: 230px;
+  margin: 15px 0;
+}
+.section .left .help_lf .shang > dl > dt {
+  margin: 0 0 0 10px;
+  color: black;
+  font-weight: 700;
+}
+.section .left .help_lf .shang > dl > dd {
+  margin: 0 0 0 25px;
+  line-height: 1.5em;
+  color: #636060;
+}
+/* 免费试用 */
+.section .right {
+  float: left;
+  width: 700px;
+  margin-left: 30px;
+  background: #f2f0f0;
+  margin-bottom: 50px;
+  border-radius: 4px;
+}
+
+.section .right .help_g {
+  padding-left: 0;
+}
+.section .right .mianfei_rg {
+  margin: 0 30px;
+}
+.section .mianfei_b {
+  margin: 20px 0;
+  line-height: 1.5em;
+}
+.section .mianfei_b h4 {
+  margin: 20px 0;
+  color: #666;
+}
+.section .mianfei_b p {
+    margin:0 15px ;
+    font-size: 14px;
+  color: #a3a3a3;
+}
+/* .footer {
+  clear: both;
+} */

@@ -1,0 +1,46 @@
+.header {
+  width: 1000px;
+  height: 75px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+.header .header_lf {
+  float: left;
+  /* border: 1px solid red; */
+}
+.header .header_lf img {
+  width: 135px;
+  height: 55px;
+  margin: 10px 40px 0 0;
+}
+.header .header_lf ul {
+  float: right;
+}
+.header .header_lf ul li {
+  float: left;
+  line-height: 75px;
+  margin: 0 25px;
+  font-size: 16px;
+}
+.header .header_lf ul .active {
+  color: red;
+}
+
+.header .header_rg {
+  float: right;
+  line-height: 75px;
+}
+.header .header_rg img {
+  width: 28px;
+  height: 29px;
+}
+.header .header_rg button{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 3px;
+    margin-left: 30px;
+    color: red;
+    background: #fff;
+}
